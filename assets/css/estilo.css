@@ -1,0 +1,284 @@
+/*JOAO*/
+
+header{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0px 90px;
+    align-items: center;
+}
+
+#logo{
+    height: 40px;
+    width: 132px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.menu1{
+    display: flex;
+    margin-right:0px;
+    color: white;
+    font-size: 16px;
+    border-right: 1px solid white;
+}
+
+.menu1 li:last-child{
+    margin-right: 20px;
+}
+
+.menu2 li:first-child{
+    margin-left: 20px;
+}
+
+.menu2{
+    display: flex;
+    font-size: 16px;
+    margin-left: 0px;
+    color: rgba(255, 255, 255, 0.8)
+}
+
+.menu2 li{
+    padding-left: 0;
+}
+
+.menu a:hover{
+    color: #1ED760;
+}
+
+.menu a{
+    padding: 16px 20px; 
+    font-weight: bold;
+}
+
+.menu-icon{
+    display: none;
+}
+
+/*JESSICA*/
+
+body, h1, h2, h3, h4, h5, p, ul, li{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+.wrap{
+    background-image: url(../img/background.svg);
+    background-color: #F037A5;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position-x: -100px;
+    background-position-y: -300px;
+    z-index: -1;
+}
+.gradient{
+    background: linear-gradient(360deg,rgba(240, 55, 165, 0.7) 0%, rgba(250, 230, 45, 0.7) 100%);
+}
+
+.banner{
+    padding: 250px 15px;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 80px;
+    color: #fff;
+    letter-spacing: -0.04em;
+    line-height: 92px;
+    padding: 0.5em 0 0.25em;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.banner h4{
+    margin-top: 9px;
+    margin-bottom: 18px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.banner > button{
+    background-color: rgb(26, 163, 74);
+    padding: 16px 48px;
+    border: none;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+}
+.banner > button:hover{
+    background-color:#1ED760;
+}
+
+.banner > button > a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;   
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+/*ANDRESSA*/
+
+footer{
+    background-color: #000000;
+    padding: 80px 0 50px;
+    width: 100%;
+    color: #fff;
+}
+
+.footer-logo img{
+    margin: 20px;
+}
+
+footer h5{
+    color: #919496;
+    font-size: 12px;
+    letter-spacing: .08em;
+    margin: 20px;
+    font-weight: 900;
+    line-height: 1.4;
+    text-transform: uppercase;   
+}
+
+.principal{
+    display: flex;
+    margin: 0 75px;
+    padding: 0 15px;
+}
+
+.secundario{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: 0 75px;
+    padding: 0 15px;
+    color: #919496;
+    font-size: 12px;
+    margin-top: 100px;
+}
+
+.secundario img{
+    padding-left: 10px;
+    width: 24px;
+    height: 18px;
+}
+
+.secundario p{
+    margin-bottom: 20px;
+}
+.footer-subinformation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.secundario ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.secundario li{
+    list-style: none;
+    cursor: pointer;
+    padding: 0px 12px 12px 12px;
+}
+
+.principal li{
+    list-style: none;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+footer a:hover{
+    color: #1ED760;
+}
+
+
+.empresa, .links, .comunidades, .footer-logo{
+    flex: 1;
+}
+
+.icones{
+    flex: 2;
+}
+
+.icones a{
+    display: inline-block;
+    border-radius: 54px;
+    max-width: 54px;
+    max-height: 54px;
+    background-color: #222326;
+    float: right;
+    margin: 5px;
+}
+
+.icones img{
+    padding: 15px;
+    width: 24px;
+    height: 24px;
+}
+
+/*JESSICA*/
+
+@media screen and (max-width: 900px) {
+
+    header{
+        background: #000000;
+    }
+
+    .container{
+        margin: 0 40px;
+    }
+
+    .menu ul{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+        background-image: url(../img/menu.svg);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 22px;
+        height: 16px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .principal, .secundario, .footer-subinformation{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 10px;
+    }
+}
